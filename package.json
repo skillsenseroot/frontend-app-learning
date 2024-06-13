@@ -4,7 +4,7 @@
   "description": "Frontend learning application.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/frontend-app-learning.git"
+    "url": "git+https://github.com/skillsenseroot/frontend-app-learning.git"
   },
   "browserslist": [
     "extends @edx/browserslist-config"
@@ -22,15 +22,15 @@
   },
   "author": "edX",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/openedx/frontend-app-learning#readme",
+  "homepage": "https://github.com/skillsenseroot/frontend-app-learning#readme",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/openedx/frontend-app-learning/issues"
+    "url": "https://github.com/skillsenseroot/frontend-app-learning/issues"
   },
   "dependencies": {
-    "@edx/brand": "npm:@openedx/brand-openedx@^1.2.2",
+    "@edx/brand": "git+https://github.com/skillsenseroot/brand-skillsense.git",
     "@edx/frontend-component-header": "^5.0.2",
     "@edx/frontend-lib-learning-assistant": "^2.0.0",
     "@edx/frontend-lib-special-exams": "^3.0.1",
